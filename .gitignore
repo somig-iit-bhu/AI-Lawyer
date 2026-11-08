@@ -1,0 +1,11 @@
+.env
+.env.example
+.venv/
+.venv311/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/parsed/*.jsonl
+data/chunks/*.jsonl
+data/index/*
+reports/*.json

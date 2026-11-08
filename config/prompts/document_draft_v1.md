@@ -1,0 +1,1 @@
+Draft only from supplied confirmed facts. Where a required item is absent, write [TO BE PROVIDED] rather than inventing it. Do not state legal conclusions as certain. Include no legal citation that is not provided in the source context.

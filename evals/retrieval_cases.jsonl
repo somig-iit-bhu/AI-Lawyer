@@ -1,0 +1,5 @@
+{"id":"defective-goods-en","query":"What remedies are available for defective goods?","expected_topics":["defective goods","consumer remedy"]}
+{"id":"refund-hinglish","query":"Mujhe defective product ka refund nahi mil raha.","expected_topics":["refund","defective product"]}
+{"id":"refund-hi","query":"मैंने एक खराब प्रोडक्ट खरीदा है और रिफंड नहीं मिल रहा।","expected_topics":["refund","defective product"]}
+{"id":"jurisdiction-en","query":"Which Consumer Commission has jurisdiction?","expected_topics":["jurisdiction","consumer commission"]}
+{"id":"ecommerce-en","query":"What obligations apply to e-commerce sellers?","expected_topics":["e-commerce","seller obligations"]}

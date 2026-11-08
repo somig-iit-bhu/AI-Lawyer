@@ -1,0 +1,8 @@
+# Add only manually verified metadata. The filename must match the PDF exactly.
+# Example:
+# - filename: Consumer_protection_act_2019.pdf
+#   title: Consumer Protection Act, 2019
+#   document_type: act
+#   url: https://example.gov.in/original.pdf
+#   legal_status: unverified
+sources: []
