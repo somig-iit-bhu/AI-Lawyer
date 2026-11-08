@@ -1,0 +1,84 @@
+{
+  "documents": [
+    {
+      "source_file": "Consumer_protection_act_2019.pdf",
+      "pages": 40,
+      "chunks": 149,
+      "manual_review_pages": []
+    },
+    {
+      "source_file": "CP_jurisdiction_district_state_central.pdf",
+      "pages": 2,
+      "chunks": 6,
+      "manual_review_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_file": "CPA_e_commerce_2020.pdf",
+      "pages": 11,
+      "chunks": 14,
+      "manual_review_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "source_file": "CPA_e_commerce_2021_ammendments.pdf",
+      "pages": 2,
+      "chunks": 3,
+      "manual_review_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_file": "CPA_e_commerce_2026_ammendments.pdf",
+      "pages": 7,
+      "chunks": 6,
+      "manual_review_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "source_file": "E commerce rules_1732703966.pdf",
+      "pages": 11,
+      "chunks": 14,
+      "manual_review_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  ],
+  "failures": [],
+  "total_chunks": 192,
+  "language_distribution": {
+    "en": 192
+  },
+  "average_chunk_tokens": 181.64583333333334,
+  "maximum_chunk_tokens": 650
+}

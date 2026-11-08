@@ -1,0 +1,698 @@
+{
+  "generated_at": "2026-11-08T13:57:10.222558+00:00",
+  "llm_provider": "gemini",
+  "llm_model": "gemini-3.1-flash-lite",
+  "evaluations": [
+    {
+      "id": "defective-phone-en",
+      "query": "I bought a defective phone from an online seller. The seller has refused my refund. What can I do?",
+      "fact_extraction": {
+        "issue_type": "consumer dispute",
+        "facts": [
+          {
+            "key": "purchase_item",
+            "value": "phone",
+            "status": "confirmed",
+            "source_message_id": "36d39492-2df1-48b4-a62b-8ff38e2a85ec",
+            "note": null
+          },
+          {
+            "key": "purchase_channel",
+            "value": "online seller",
+            "status": "confirmed",
+            "source_message_id": "36d39492-2df1-48b4-a62b-8ff38e2a85ec",
+            "note": null
+          },
+          {
+            "key": "item_condition",
+            "value": "defective",
+            "status": "alleged",
+            "source_message_id": "36d39492-2df1-48b4-a62b-8ff38e2a85ec",
+            "note": null
+          },
+          {
+            "key": "refund_status",
+            "value": "refused",
+            "status": "confirmed",
+            "source_message_id": "36d39492-2df1-48b4-a62b-8ff38e2a85ec",
+            "note": null
+          }
+        ],
+        "missing_information": [
+          "name of the online seller",
+          "date of purchase",
+          "purchase price",
+          "nature of the defect",
+          "payment method used"
+        ],
+        "follow_up_questions": [
+          "What is the name of the online seller?",
+          "When did you purchase the phone?",
+          "What specific defect are you experiencing with the phone?",
+          "What payment method did you use for this transaction?"
+        ]
+      },
+      "case_state": {
+        "case_id": "ff270492-2225-493a-9265-036cb57052cc",
+        "issue_type": "consumer dispute",
+        "preferred_language": "auto",
+        "facts": {
+          "purchase_item": {
+            "key": "purchase_item",
+            "value": "phone",
+            "status": "confirmed",
+            "source_message_id": "36d39492-2df1-48b4-a62b-8ff38e2a85ec",
+            "note": null
+          },
+          "purchase_channel": {
+            "key": "purchase_channel",
+            "value": "online seller",
+            "status": "confirmed",
+            "source_message_id": "36d39492-2df1-48b4-a62b-8ff38e2a85ec",
+            "note": null
+          },
+          "item_condition": {
+            "key": "item_condition",
+            "value": "defective",
+            "status": "alleged",
+            "source_message_id": "36d39492-2df1-48b4-a62b-8ff38e2a85ec",
+            "note": null
+          },
+          "refund_status": {
+            "key": "refund_status",
+            "value": "refused",
+            "status": "confirmed",
+            "source_message_id": "36d39492-2df1-48b4-a62b-8ff38e2a85ec",
+            "note": null
+          }
+        },
+        "timeline": [],
+        "evidence": [],
+        "messages": [
+          {
+            "message_id": "36d39492-2df1-48b4-a62b-8ff38e2a85ec",
+            "role": "user",
+            "content": "I bought a defective phone from an online seller. The seller has refused my refund. What can I do?",
+            "created_at": "2026-11-08T13:57:10.238447"
+          }
+        ],
+        "missing_information": [
+          "date of purchase",
+          "name of the online seller",
+          "nature of the defect",
+          "payment method used",
+          "purchase price"
+        ]
+      },
+      "answer": {
+        "answer": "It is understandable how frustrating it can be to receive a defective product and face a refusal for a refund. Under the Consumer Protection (E-Commerce) Rules, 2020, sellers operating on marketplace platforms are explicitly prohibited from refusing to take back goods or refund the consideration paid if the goods are found to be defective. The law mandates that sellers must address consumer grievances, and they are required to have a designated grievance officer who must acknowledge your complaint within 48 hours and resolve it within one month. If the seller fails to honor this, you have the right to seek redressal for this unfair trade practice.",
+        "practical_next_steps": [
+          "Contact the e-commerce platform's customer support to escalate your complaint if you have not already done so.",
+          "Formally lodge a complaint with the seller's designated grievance officer, ensuring you keep a record of the communication.",
+          "Check if the e-commerce platform is a partner of the National Consumer Helpline to facilitate the resolution process.",
+          "If the grievance remains unresolved after one month, consider filing a formal complaint with the appropriate Consumer Commission."
+        ],
+        "evidence_checklist": [
+          "Proof of purchase (invoice or order confirmation).",
+          "Photographic or video evidence demonstrating the defect in the phone.",
+          "Copies of all correspondence with the seller and the e-commerce platform regarding the refund request.",
+          "Details of the grievance officer you contacted and the date of your initial complaint."
+        ],
+        "uncertainty": "The provided sources do not specify the exact procedure for filing a case in a Consumer Commission, nor do they provide a specific timeline for legal action beyond the one-month grievance redressal period.",
+        "professional_help_recommended": true,
+        "citations": [
+          {
+            "source_file": "CPA_e_commerce_2020.pdf",
+            "page": 10,
+            "section": "6"
+          },
+          {
+            "source_file": "CPA_e_commerce_2020.pdf",
+            "page": 9,
+            "section": null
+          }
+        ]
+      },
+      "retrieved_sources": [
+        {
+          "vector_id": 78,
+          "chunk_id": "6e63b86d7c21142ef55064f214b29415",
+          "document_id": "pdf-3012b37f6f6dba2d2952",
+          "document_title": "रजजस्ट्री सं. डी.एल.- 33004/99",
+          "document_type": "unknown",
+          "source_file": "CPA_e_commerce_2020.pdf",
+          "source_checksum": "3012b37f6f6dba2d29523abf10f43fbb3a503768e578ef0fa02e4b9e4593bd0c",
+          "source_url": null,
+          "language": "en",
+          "page_start": 10,
+          "page_end": 10,
+          "section": "section 6",
+          "heading": "Duties of sellers on marketplace. – (1) No seller offering goods or services through a marketplace e-commerce",
+          "text": "6. Duties of sellers on marketplace. – (1) No seller offering goods or services through a marketplace e-commerce entity shall adopt any unfair trade practice whether in the course of the offer on the e-commerce entity’s platform or otherwise. (2) No such seller shall falsely represent itself as a consumer and post reviews about goods or services or misrepresent the quality or the features of any goods or services. (3) No seller offering goods or services through a marketplace e-commerce entity shall refuse to take back goods, or withdraw or discontinue services purchased or agreed to be purchased, or refuse to refund consideration, if paid, if such goods or services are defective, deficient or spurious, or if the goods or services are not of the characteristics or features as advertised or as agreed to, or if such goods or services are delivered late from the stated delivery schedule: Provided that in the case of late delivery, this sub-rule shall not be applied if such late delivery was due to force majeure. (4) Any seller offering goods or services through a marketplace e-commerce entity shall: (a) have a prior written contract with the respective e-commerce entity in order to undertake or solicit such sale or offer; appoint a grievance officer for consumer grievance redressal and ensure that the grievance officer acknowledges the receipt of any consumer complaint within forty-eight hours and redresses the complaint within one month from the date of receipt of the complaint; provide to the e-commerce entity its legal name, principal geographic address of its headquarters and all branches, the name and details of its website, its e-mail address, customer care contact details such as fax, landline, and mobile numbers and where applicable, its GSTIN and PAN details. (5) Any seller offering goods or services through a marketplace e-commerce entity shall provide the following information to the e-commerce entity to be displayed on its platform or website: (a) all contractual information required to be disclosed by law; total price in single figure of any good or service, along with the breakup price for the good or service, showing all the compulsory and voluntary charges such as delivery charges, postage and handling charges, conveyance charges and the applicable tax, as applicable;",
+          "token_count": 443,
+          "legal_status": "unverified",
+          "warnings": [
+            "Mixed Hindi/English page retained intact; translation boundaries were not inferred.",
+            "Indexed a substantive English block; original bilingual extraction remains in raw_text."
+          ],
+          "duplicate_source_files": [
+            "E commerce rules_1732703966.pdf"
+          ],
+          "similarity": 0.8349355459213257,
+          "hybrid_score": 0.8622143399830364
+        },
+        {
+          "vector_id": 130,
+          "chunk_id": "c197b5866dcfb79e4ce3aeb7e2ee1237",
+          "document_id": "pdf-0ae7f82ab5b77d50087c",
+          "document_title": "THE CONSUMER PROTECTION ACT, 2019",
+          "document_type": "unknown",
+          "source_file": "Consumer_protection_act_2019.pdf",
+          "source_checksum": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+          "source_url": null,
+          "language": "en",
+          "page_start": 32,
+          "page_end": 32,
+          "section": "section 86",
+          "heading": "A product seller who is not a product manufacturer shall be liable in a product",
+          "text": "86. A product seller who is not a product manufacturer shall be liable in a product liability action, if— (a) he has exercised substantial control over the designing, testing, manufacturing, packaging or labelling of a product that caused harm; or (b) he has altered or modified the product and such alteration or modification was the substantial factor in causing the harm; or (c) he has made an express warranty of a product independent of any express warranty made by a manufacturer and such product failed to conform to the express warranty made by the product seller which caused the harm; or (d) the product has been sold by him and the identity of product manufacturer of such product is not known, or if known, the service of notice or process or warrant cannot be effected on him or he is not subject to the law which is in force in India or the order, if any, passed or to be passed cannot be enforced against him; or (e) he failed to exercise reasonable care in assembling, inspecting or maintaining such product or he did not pass on the warnings or instructions of the product manufacturer regarding the dangers involved or proper usage of the product while selling such product and such failure was the proximate cause of the harm.",
+          "token_count": 245,
+          "legal_status": "unverified",
+          "warnings": [],
+          "similarity": 0.8299685716629028,
+          "hybrid_score": 0.8222091251547814
+        },
+        {
+          "vector_id": 169,
+          "chunk_id": "f6bcfb039dfc245b9b720b3bc886bea3",
+          "document_id": "pdf-3012b37f6f6dba2d2952",
+          "document_title": "रजजस्ट्री सं. डी.एल.- 33004/99",
+          "document_type": "unknown",
+          "source_file": "CPA_e_commerce_2020.pdf",
+          "source_checksum": "3012b37f6f6dba2d29523abf10f43fbb3a503768e578ef0fa02e4b9e4593bd0c",
+          "source_url": null,
+          "language": "en",
+          "page_start": 9,
+          "page_end": 9,
+          "section": null,
+          "heading": null,
+          "text": "Every e-commerce entity shall ensure that the grievance officer referred to in sub-rule (4) acknowledges the receipt of any consumer complaint within forty-eight hours and redresses the complaint within one month from the date of receipt of the complaint. (6) Where an e-commerce entity offers imported goods or services for sale, it shall mention the name and details of any importer from whom it has purchased such goods or services, or who may be a seller on its platform. (7) Every e-commerce entity shall endeavour on a best effort basis to become a partner in the convergence process of the National Consumer Helpline of the Central Government. (8) No e-commerce entity shall impose cancellation charges on consumers cancelling after confirming purchase unless similar charges are also borne by the e- commerce entity, if they cancel the purchase order unilaterally for any reason. (9) Every e-commerce entity shall only record the consent of a consumer for the purchase of any good or service offered on its platform where such consent is expressed through an explicit and affirmative action, and no such entity shall record such consent automatically, including in the form of pre-ticked checkboxes. (10) Every e-commerce entity shall effect all payments towards accepted refund requests of the consumers as prescribed by the Reserve Bank of India or any other competent authority under any law for the time being in force, within a reasonable period of time, or as prescribed under applicable laws. (11) No e-commerce entity shall-- manipulate the price of the goods or services offered on its platform in such a manner as to gain unreasonable profit by imposing on consumers any unjustified price having regard to the prevailing market conditions, the essential nature of the good or service, any extraordinary circumstances under which the good or service is offered, and any other relevant consideration in determining whether the price charged is justified; discriminate between consumers of the same class or make any arbitrary classification of consumers affecting their rights under the Act.",
+          "token_count": 389,
+          "legal_status": "unverified",
+          "warnings": [
+            "Mixed Hindi/English page retained intact; translation boundaries were not inferred.",
+            "Indexed a substantive English block; original bilingual extraction remains in raw_text."
+          ],
+          "duplicate_source_files": [
+            "E commerce rules_1732703966.pdf"
+          ],
+          "similarity": 0.823702335357666,
+          "hybrid_score": 0.7952038644370042
+        },
+        {
+          "vector_id": 148,
+          "chunk_id": "d15b7c1fe45e24d565514906b6af817f",
+          "document_id": "pdf-0ae7f82ab5b77d50087c",
+          "document_title": "THE CONSUMER PROTECTION ACT, 2019",
+          "document_type": "unknown",
+          "source_file": "Consumer_protection_act_2019.pdf",
+          "source_checksum": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+          "source_url": null,
+          "language": "en",
+          "page_start": 32,
+          "page_end": 32,
+          "section": "section 87",
+          "heading": "(1) A product liability action cannot be brought against the product seller if, at the",
+          "text": "87. (1) A product liability action cannot be brought against the product seller if, at the time of harm, the product was misused, altered, or modified. (2) In any product liability action based on the failure to provide adequate warnings or instructions, the product manufacturer shall not be liable, if— (a) the product was purchased by an employer for use at the workplace and the product manufacturer had provided warnings or instructions to such employer; (b) the product was sold as a component or material to be used in another product and necessary warnings or instructions were given by the product manufacturer to the purchaser of such component or material, but the harm was caused to the complainant by use of the end product in which such component or material was used; (c) the product was one which was legally meant to be used or dispensed only by or under the supervision of an expert or a class of experts and the product manufacturer had employed reasonable means to give the warnings or instructions for usage of such product to such expert or class of experts; or (d) the complainant, while using such product, was under the influence of alcohol or any prescription drug which had not been prescribed by a medical practitioner. Liability of product service provider. Liability of product sellers. Exceptions to product liability action.",
+          "token_count": 258,
+          "legal_status": "unverified",
+          "warnings": [],
+          "similarity": 0.8204270601272583,
+          "hybrid_score": 0.7494167522713369
+        },
+        {
+          "vector_id": 56,
+          "chunk_id": "4fb0ccf06b1ff451bb52cc216995e658",
+          "document_id": "pdf-0ae7f82ab5b77d50087c",
+          "document_title": "THE CONSUMER PROTECTION ACT, 2019",
+          "document_type": "unknown",
+          "source_file": "Consumer_protection_act_2019.pdf",
+          "source_checksum": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+          "source_url": null,
+          "language": "en",
+          "page_start": 14,
+          "page_end": 14,
+          "section": "section 20",
+          "heading": "Where the Central Authority is satisfied on the basis of investigation that there is",
+          "text": "20. Where the Central Authority is satisfied on the basis of investigation that there is sufficient evidence to show violation of consumer rights or unfair trade practice by a person, it may pass such order as may be necessary, including— (a) recalling of goods or withdrawal of services which are dangerous, hazardous or unsafe; (b) reimbursement of the prices of goods or services so recalled to purchasers of such goods or services; and (c) discontinuation of practices which are unfair and prejudicial to consumers' interest: Provided that the Central Authority shall give the person an opportunity of being heard before passing an order under this section.",
+          "token_count": 122,
+          "legal_status": "unverified",
+          "warnings": [],
+          "similarity": 0.8204782009124756,
+          "hybrid_score": 0.69188135048758
+        }
+      ]
+    },
+    {
+      "id": "refund-hinglish",
+      "query": "Maine online defective product liya tha, seller refund nahi de raha. Mere paas invoice aur chats hain. Kya steps lene chahiye?",
+      "fact_extraction": {
+        "issue_type": "defective product refund dispute",
+        "facts": [
+          {
+            "key": "purchase_channel",
+            "value": "online",
+            "status": "confirmed",
+            "source_message_id": "02bc271e-8774-4ea3-90fd-4c91d04ef851",
+            "note": null
+          },
+          {
+            "key": "product_condition",
+            "value": "defective",
+            "status": "alleged",
+            "source_message_id": "02bc271e-8774-4ea3-90fd-4c91d04ef851",
+            "note": null
+          },
+          {
+            "key": "refund_status",
+            "value": "denied by seller",
+            "status": "confirmed",
+            "source_message_id": "02bc271e-8774-4ea3-90fd-4c91d04ef851",
+            "note": null
+          },
+          {
+            "key": "evidence_available",
+            "value": "invoice and chat logs",
+            "status": "confirmed",
+            "source_message_id": "02bc271e-8774-4ea3-90fd-4c91d04ef851",
+            "note": null
+          }
+        ],
+        "missing_information": [
+          "name of the e-commerce platform",
+          "date of purchase",
+          "product name",
+          "reason provided by the seller for refund denial"
+        ],
+        "follow_up_questions": [
+          "Which e-commerce platform did you use to purchase the product?",
+          "Have you raised a formal complaint through the platform's official grievance redressal system?",
+          "What specific reason did the seller give for refusing the refund?"
+        ]
+      },
+      "case_state": {
+        "case_id": "8af2f0f4-adef-4a29-9ddb-dbd9a089b27c",
+        "issue_type": "defective product refund dispute",
+        "preferred_language": "auto",
+        "facts": {
+          "purchase_channel": {
+            "key": "purchase_channel",
+            "value": "online",
+            "status": "confirmed",
+            "source_message_id": "02bc271e-8774-4ea3-90fd-4c91d04ef851",
+            "note": null
+          },
+          "product_condition": {
+            "key": "product_condition",
+            "value": "defective",
+            "status": "alleged",
+            "source_message_id": "02bc271e-8774-4ea3-90fd-4c91d04ef851",
+            "note": null
+          },
+          "refund_status": {
+            "key": "refund_status",
+            "value": "denied by seller",
+            "status": "confirmed",
+            "source_message_id": "02bc271e-8774-4ea3-90fd-4c91d04ef851",
+            "note": null
+          },
+          "evidence_available": {
+            "key": "evidence_available",
+            "value": "invoice and chat logs",
+            "status": "confirmed",
+            "source_message_id": "02bc271e-8774-4ea3-90fd-4c91d04ef851",
+            "note": null
+          }
+        },
+        "timeline": [],
+        "evidence": [],
+        "messages": [
+          {
+            "message_id": "02bc271e-8774-4ea3-90fd-4c91d04ef851",
+            "role": "user",
+            "content": "Maine online defective product liya tha, seller refund nahi de raha. Mere paas invoice aur chats hain. Kya steps lene chahiye?",
+            "created_at": "2026-11-08T13:57:17.385362"
+          }
+        ],
+        "missing_information": [
+          "date of purchase",
+          "name of the e-commerce platform",
+          "product name",
+          "reason provided by the seller for refund denial"
+        ]
+      },
+      "answer": {
+        "answer": "Namaste! It is understandable that you are frustrated when a seller refuses to refund a defective product. According to the Consumer Protection (E-Commerce) Rules, 2020, a seller on a marketplace platform is prohibited from refusing a refund if the goods provided are defective or deficient. The law explicitly states that sellers must accept returns and process refunds for such items. Furthermore, both the seller and the e-commerce entity are required to have a grievance redressal mechanism in place, where complaints should be acknowledged within 48 hours and resolved within one month.",
+        "practical_next_steps": [
+          "Formally register a complaint with the e-commerce platform's customer support, specifically referencing their grievance officer.",
+          "If the platform does not resolve the issue, contact the National Consumer Helpline (NCH) to register your grievance.",
+          "If the issue remains unresolved, you may consider filing a formal complaint in the appropriate Consumer Commission."
+        ],
+        "evidence_checklist": [
+          "Original invoice or purchase receipt.",
+          "Screenshots or saved copies of chat logs with the seller regarding the defect and the refund refusal.",
+          "Photographic or video evidence showing the defect in the product.",
+          "Any communication or emails sent to the company's grievance officer."
+        ],
+        "uncertainty": "The provided sources do not specify the exact procedure for filing a case in a Consumer Commission, nor do they define the specific 'reasonable period' for processing refunds beyond the general grievance redressal timeline.",
+        "professional_help_recommended": false,
+        "citations": [
+          {
+            "source_file": "CPA_e_commerce_2020.pdf",
+            "page": 10,
+            "section": "6"
+          },
+          {
+            "source_file": "CPA_e_commerce_2020.pdf",
+            "page": 9,
+            "section": null
+          }
+        ]
+      },
+      "retrieved_sources": [
+        {
+          "vector_id": 78,
+          "chunk_id": "6e63b86d7c21142ef55064f214b29415",
+          "document_id": "pdf-3012b37f6f6dba2d2952",
+          "document_title": "रजजस्ट्री सं. डी.एल.- 33004/99",
+          "document_type": "unknown",
+          "source_file": "CPA_e_commerce_2020.pdf",
+          "source_checksum": "3012b37f6f6dba2d29523abf10f43fbb3a503768e578ef0fa02e4b9e4593bd0c",
+          "source_url": null,
+          "language": "en",
+          "page_start": 10,
+          "page_end": 10,
+          "section": "section 6",
+          "heading": "Duties of sellers on marketplace. – (1) No seller offering goods or services through a marketplace e-commerce",
+          "text": "6. Duties of sellers on marketplace. – (1) No seller offering goods or services through a marketplace e-commerce entity shall adopt any unfair trade practice whether in the course of the offer on the e-commerce entity’s platform or otherwise. (2) No such seller shall falsely represent itself as a consumer and post reviews about goods or services or misrepresent the quality or the features of any goods or services. (3) No seller offering goods or services through a marketplace e-commerce entity shall refuse to take back goods, or withdraw or discontinue services purchased or agreed to be purchased, or refuse to refund consideration, if paid, if such goods or services are defective, deficient or spurious, or if the goods or services are not of the characteristics or features as advertised or as agreed to, or if such goods or services are delivered late from the stated delivery schedule: Provided that in the case of late delivery, this sub-rule shall not be applied if such late delivery was due to force majeure. (4) Any seller offering goods or services through a marketplace e-commerce entity shall: (a) have a prior written contract with the respective e-commerce entity in order to undertake or solicit such sale or offer; appoint a grievance officer for consumer grievance redressal and ensure that the grievance officer acknowledges the receipt of any consumer complaint within forty-eight hours and redresses the complaint within one month from the date of receipt of the complaint; provide to the e-commerce entity its legal name, principal geographic address of its headquarters and all branches, the name and details of its website, its e-mail address, customer care contact details such as fax, landline, and mobile numbers and where applicable, its GSTIN and PAN details. (5) Any seller offering goods or services through a marketplace e-commerce entity shall provide the following information to the e-commerce entity to be displayed on its platform or website: (a) all contractual information required to be disclosed by law; total price in single figure of any good or service, along with the breakup price for the good or service, showing all the compulsory and voluntary charges such as delivery charges, postage and handling charges, conveyance charges and the applicable tax, as applicable;",
+          "token_count": 443,
+          "legal_status": "unverified",
+          "warnings": [
+            "Mixed Hindi/English page retained intact; translation boundaries were not inferred.",
+            "Indexed a substantive English block; original bilingual extraction remains in raw_text."
+          ],
+          "duplicate_source_files": [
+            "E commerce rules_1732703966.pdf"
+          ],
+          "similarity": 0.836201548576355,
+          "hybrid_score": 0.769650740650379
+        },
+        {
+          "vector_id": 169,
+          "chunk_id": "f6bcfb039dfc245b9b720b3bc886bea3",
+          "document_id": "pdf-3012b37f6f6dba2d2952",
+          "document_title": "रजजस्ट्री सं. डी.एल.- 33004/99",
+          "document_type": "unknown",
+          "source_file": "CPA_e_commerce_2020.pdf",
+          "source_checksum": "3012b37f6f6dba2d29523abf10f43fbb3a503768e578ef0fa02e4b9e4593bd0c",
+          "source_url": null,
+          "language": "en",
+          "page_start": 9,
+          "page_end": 9,
+          "section": null,
+          "heading": null,
+          "text": "Every e-commerce entity shall ensure that the grievance officer referred to in sub-rule (4) acknowledges the receipt of any consumer complaint within forty-eight hours and redresses the complaint within one month from the date of receipt of the complaint. (6) Where an e-commerce entity offers imported goods or services for sale, it shall mention the name and details of any importer from whom it has purchased such goods or services, or who may be a seller on its platform. (7) Every e-commerce entity shall endeavour on a best effort basis to become a partner in the convergence process of the National Consumer Helpline of the Central Government. (8) No e-commerce entity shall impose cancellation charges on consumers cancelling after confirming purchase unless similar charges are also borne by the e- commerce entity, if they cancel the purchase order unilaterally for any reason. (9) Every e-commerce entity shall only record the consent of a consumer for the purchase of any good or service offered on its platform where such consent is expressed through an explicit and affirmative action, and no such entity shall record such consent automatically, including in the form of pre-ticked checkboxes. (10) Every e-commerce entity shall effect all payments towards accepted refund requests of the consumers as prescribed by the Reserve Bank of India or any other competent authority under any law for the time being in force, within a reasonable period of time, or as prescribed under applicable laws. (11) No e-commerce entity shall-- manipulate the price of the goods or services offered on its platform in such a manner as to gain unreasonable profit by imposing on consumers any unjustified price having regard to the prevailing market conditions, the essential nature of the good or service, any extraordinary circumstances under which the good or service is offered, and any other relevant consideration in determining whether the price charged is justified; discriminate between consumers of the same class or make any arbitrary classification of consumers affecting their rights under the Act.",
+          "token_count": 389,
+          "legal_status": "unverified",
+          "warnings": [
+            "Mixed Hindi/English page retained intact; translation boundaries were not inferred.",
+            "Indexed a substantive English block; original bilingual extraction remains in raw_text."
+          ],
+          "duplicate_source_files": [
+            "E commerce rules_1732703966.pdf"
+          ],
+          "similarity": 0.8398232460021973,
+          "hybrid_score": 0.6987412621711837
+        },
+        {
+          "vector_id": 8,
+          "chunk_id": "102773705df7332850d9987822895ad4",
+          "document_id": "pdf-0ae7f82ab5b77d50087c",
+          "document_title": "THE CONSUMER PROTECTION ACT, 2019",
+          "document_type": "unknown",
+          "source_file": "Consumer_protection_act_2019.pdf",
+          "source_checksum": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+          "source_url": null,
+          "language": "en",
+          "page_start": 33,
+          "page_end": 33,
+          "section": "section 89",
+          "heading": "Any manufacturer or service provider who causes a false or misleading",
+          "text": "89. Any manufacturer or service provider who causes a false or misleading advertisement to be made which is prejudicial to the interest of consumers shall be punished with imprisonment for a term which may extend to two years and with fine which may extend to ten lakh rupees; and for every subsequent offence, be punished with imprisonment for a term which may extend to five years and with fine which may extend to fifty lakh rupees.",
+          "token_count": 80,
+          "legal_status": "unverified",
+          "warnings": [],
+          "similarity": 0.8370976448059082,
+          "hybrid_score": 0.6278232336044312
+        },
+        {
+          "vector_id": 146,
+          "chunk_id": "cfd9ff111ffa8957c299b200cdd48036",
+          "document_id": "pdf-0ae7f82ab5b77d50087c",
+          "document_title": "THE CONSUMER PROTECTION ACT, 2019",
+          "document_type": "unknown",
+          "source_file": "Consumer_protection_act_2019.pdf",
+          "source_checksum": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+          "source_url": null,
+          "language": "en",
+          "page_start": 11,
+          "page_end": 11,
+          "section": null,
+          "heading": null,
+          "text": "SEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY 11",
+          "token_count": 10,
+          "legal_status": "unverified",
+          "warnings": [],
+          "similarity": 0.8320154547691345,
+          "hybrid_score": 0.6240115910768509
+        },
+        {
+          "vector_id": 135,
+          "chunk_id": "c76c5bc22c07b99ac1c1aefa4e0adbdc",
+          "document_id": "pdf-0ae7f82ab5b77d50087c",
+          "document_title": "THE CONSUMER PROTECTION ACT, 2019",
+          "document_type": "unknown",
+          "source_file": "Consumer_protection_act_2019.pdf",
+          "source_checksum": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+          "source_url": null,
+          "language": "en",
+          "page_start": 31,
+          "page_end": 31,
+          "section": null,
+          "heading": null,
+          "text": "SEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY 31",
+          "token_count": 10,
+          "legal_status": "unverified",
+          "warnings": [],
+          "similarity": 0.8312137126922607,
+          "hybrid_score": 0.6234102845191956
+        }
+      ]
+    },
+    {
+      "id": "jurisdiction-en",
+      "query": "I was sold a defective appliance. How do I identify the Consumer Commission that may have jurisdiction?",
+      "fact_extraction": {
+        "issue_type": "defective appliance",
+        "facts": [
+          {
+            "key": "issue",
+            "value": "defective appliance",
+            "status": "alleged",
+            "source_message_id": "764cda0c-b24a-4076-8807-3068bef3ec8a",
+            "note": null
+          }
+        ],
+        "missing_information": [
+          "location of purchase",
+          "current location of the consumer",
+          "value of the appliance"
+        ],
+        "follow_up_questions": [
+          "In which city and state did you purchase the appliance?",
+          "Where are you currently located?",
+          "What is the approximate purchase price of the appliance?"
+        ]
+      },
+      "case_state": {
+        "case_id": "f9b57758-ceb0-4060-b365-39ad916b87d5",
+        "issue_type": "defective appliance",
+        "preferred_language": "auto",
+        "facts": {
+          "issue": {
+            "key": "issue",
+            "value": "defective appliance",
+            "status": "alleged",
+            "source_message_id": "764cda0c-b24a-4076-8807-3068bef3ec8a",
+            "note": null
+          }
+        },
+        "timeline": [],
+        "evidence": [],
+        "messages": [
+          {
+            "message_id": "764cda0c-b24a-4076-8807-3068bef3ec8a",
+            "role": "user",
+            "content": "I was sold a defective appliance. How do I identify the Consumer Commission that may have jurisdiction?",
+            "created_at": "2026-11-08T13:57:21.433279"
+          }
+        ],
+        "missing_information": [
+          "current location of the consumer",
+          "location of purchase",
+          "value of the appliance"
+        ]
+      },
+      "answer": {
+        "answer": "I am sorry to hear about the trouble you are facing with your defective appliance. Under the Consumer Protection Act, 2019, you generally have the right to file a complaint regarding goods sold or delivered to you with the District Commission (Consumer_protection_act_2019.pdf, p.18, section 35). While the provided documents confirm that complaints can be filed with the District Commission, they do not explicitly detail the specific monetary thresholds or geographical criteria required to determine whether your case should be filed at the District, State, or National level. The rules governing the jurisdiction of these Commissions are outlined in the Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021 (CP_jurisdiction_district_state_central.pdf, p.2, section 1).",
+        "practical_next_steps": [
+          "Review your purchase invoice to determine the total value of the defective appliance.",
+          "Consult the Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021, to check the pecuniary jurisdiction limits.",
+          "Identify the District Commission located within the jurisdiction where the seller operates or where the transaction occurred.",
+          "Prepare your documentation, as complaints can now be filed electronically in the prescribed manner (Consumer_protection_act_2019.pdf, p.18, section 35)."
+        ],
+        "evidence_checklist": [
+          "Original purchase invoice or receipt for the appliance.",
+          "Warranty card or guarantee documents, if applicable.",
+          "Copies of any correspondence or complaints previously sent to the seller or manufacturer.",
+          "Evidence of the defect, such as photographs, videos, or a technician's report.",
+          "Proof of payment."
+        ],
+        "uncertainty": "The provided materials do not contain the specific pecuniary (monetary) limits required to distinguish between the jurisdiction of the District, State, and National Commissions.",
+        "professional_help_recommended": true,
+        "citations": [
+          {
+            "source_file": "Consumer_protection_act_2019.pdf",
+            "page": 18,
+            "section": "35"
+          },
+          {
+            "source_file": "CP_jurisdiction_district_state_central.pdf",
+            "page": 2,
+            "section": "1"
+          }
+        ]
+      },
+      "retrieved_sources": [
+        {
+          "vector_id": 175,
+          "chunk_id": "fb9a6f2a6a9a1c0a274573839ce6680a",
+          "document_id": "pdf-0ae7f82ab5b77d50087c",
+          "document_title": "THE CONSUMER PROTECTION ACT, 2019",
+          "document_type": "unknown",
+          "source_file": "Consumer_protection_act_2019.pdf",
+          "source_checksum": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+          "source_url": null,
+          "language": "en",
+          "page_start": 18,
+          "page_end": 18,
+          "section": "section 35",
+          "heading": "(1) A complaint, in relation to any goods sold or delivered or agreed to be sold or",
+          "text": "35. (1) A complaint, in relation to any goods sold or delivered or agreed to be sold or delivered or any service provided or agreed to be provided, may be filed with a District Commission by— (a) the consumer,— (i) to whom such goods are sold or delivered or agreed to be sold or delivered or such service is provided or agreed to be provided; or (ii) who alleges unfair trade practice in respect of such goods or service; (b) any recognised consumer association, whether the consumer to whom such goods are sold or delivered or agreed to be sold or delivered or such service is provided or agreed to be provided, or who alleges unfair trade practice in respect of such goods or service, is a member of such association or not; (c) one or more consumers, where there are numerous consumers having the same interest, with the permission of the District Commission, on behalf of, or for the benefit of, all consumers so interested; or (d) the Central Government, the Central Authority or the State Government, as the case may be: Provided that the complaint under this sub-section may be filed electronically in such manner as may be prescribed. Explanation.—For the purposes of this sub-section, \"recognised consumer association\" means any voluntary consumer association registered under any law for the time being in force. (2) Every complaint filed under sub-section (1) shall be accompanied with such fee and payable in such manner, including electronic form, as may be prescribed.",
+          "token_count": 306,
+          "legal_status": "unverified",
+          "warnings": [],
+          "similarity": 0.8586118817329407,
+          "hybrid_score": 0.8615747079913184
+        },
+        {
+          "vector_id": 41,
+          "chunk_id": "36b32bd2f71979f96e04a8e94d43d741",
+          "document_id": "pdf-0ae7f82ab5b77d50087c",
+          "document_title": "THE CONSUMER PROTECTION ACT, 2019",
+          "document_type": "unknown",
+          "source_file": "Consumer_protection_act_2019.pdf",
+          "source_checksum": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+          "source_url": null,
+          "language": "en",
+          "page_start": 13,
+          "page_end": 13,
+          "section": "section 16",
+          "heading": "The District Collector (by whatever name called) may, on a complaint or on a",
+          "text": "16. The District Collector (by whatever name called) may, on a complaint or on a reference made to him by the Central Authority or the Commissioner of a regional office, inquire into or investigate complaints regarding violation of rights of consumers as a class, on matters relating to violations of consumer rights, unfair trade practices and false or misleading advertisements, within his jurisdiction and submit his report to the Central Authority or to the Commissioner of a regional office, as the case may be.",
+          "token_count": 94,
+          "legal_status": "unverified",
+          "warnings": [],
+          "similarity": 0.872520387172699,
+          "hybrid_score": 0.8041574572246692
+        },
+        {
+          "vector_id": 116,
+          "chunk_id": "a40c99343030a47f757a6d6865d830f8",
+          "document_id": "pdf-6c2657d84f94202f36e0",
+          "document_title": "रजिस्ट्री सं. डी.एल.- 33004/99",
+          "document_type": "unknown",
+          "source_file": "CP_jurisdiction_district_state_central.pdf",
+          "source_checksum": "6c2657d84f94202f36e07b8758e4fade54474435fe0edf590a69e5146a4e10a0",
+          "source_url": null,
+          "language": "en",
+          "page_start": 2,
+          "page_end": 2,
+          "section": "section 1",
+          "heading": "Short title and commencement.—(1) These rules may be called the Consumer Protection (Jurisdiction of the",
+          "text": "1. Short title and commencement.—(1) These rules may be called the Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021. (2) They shall come into force on the date of their publication in the official gazette.",
+          "token_count": 57,
+          "legal_status": "unverified",
+          "warnings": [
+            "Mixed Hindi/English page retained intact; translation boundaries were not inferred.",
+            "Indexed a substantive English block; original bilingual extraction remains in raw_text."
+          ],
+          "similarity": 0.8633871078491211,
+          "hybrid_score": 0.7782970628012026
+        },
+        {
+          "vector_id": 86,
+          "chunk_id": "72e3eede0fb5786a30243f35ddf1b759",
+          "document_id": "pdf-0ae7f82ab5b77d50087c",
+          "document_title": "THE CONSUMER PROTECTION ACT, 2019",
+          "document_type": "unknown",
+          "source_file": "Consumer_protection_act_2019.pdf",
+          "source_checksum": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+          "source_url": null,
+          "language": "en",
+          "page_start": 31,
+          "page_end": 31,
+          "section": "section 79",
+          "heading": "(1) The mediation shall be held in the consumer mediation cell attached to the",
+          "text": "79. (1) The mediation shall be held in the consumer mediation cell attached to the District Commission, the State Commission or the National Commission, as the case may be. (2) Where a consumer dispute is referred for mediation by the District Commission or the State Commission or the National Commission, as the case may be, the mediator nominated by such Commission shall have regard to the rights and obligations of the parties, the usages of trade, if any, the circumstances giving rise to the consumer dispute and such other relevant factors, as he may deem necessary and shall be guided by the principles of natural justice while carrying out mediation. (3) The mediator so nominated shall conduct mediation within such time and in such manner as may be specified by regulations.",
+          "token_count": 149,
+          "legal_status": "unverified",
+          "warnings": [],
+          "similarity": 0.851403534412384,
+          "hybrid_score": 0.7581204228025014
+        },
+        {
+          "vector_id": 13,
+          "chunk_id": "133374feef4e8ec49a558bf66777ae0a",
+          "document_id": "pdf-0ae7f82ab5b77d50087c",
+          "document_title": "THE CONSUMER PROTECTION ACT, 2019",
+          "document_type": "unknown",
+          "source_file": "Consumer_protection_act_2019.pdf",
+          "source_checksum": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+          "source_url": null,
+          "language": "en",
+          "page_start": 28,
+          "page_end": 28,
+          "section": "section 66",
+          "heading": "Where the National Commission or the State Commission, as the case may be, on",
+          "text": "66. Where the National Commission or the State Commission, as the case may be, on an application by a complainant or otherwise, is of the opinion that it involves the larger interest of consumers, it may direct any individual or organisation or expert to assist the National Commission or the State Commission, as the case may be.",
+          "token_count": 64,
+          "legal_status": "unverified",
+          "warnings": [],
+          "similarity": 0.8561713695526123,
+          "hybrid_score": 0.74948384897697
+        }
+      ]
+    }
+  ]
+}

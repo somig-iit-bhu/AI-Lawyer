@@ -1,0 +1,64 @@
+{
+  "query": "I bought a defective phone from an online seller. The seller has refused my refund. What can I do?",
+  "answer": {
+    "answer": "It is understandable how frustrating it can be to receive a defective product and face a refusal for a refund. Under the Consumer Protection (E-Commerce) Rules, 2020, sellers operating on a marketplace platform are explicitly prohibited from refusing to take back goods or refund the consideration paid if the goods are found to be defective. If your phone is indeed defective, the seller has a duty to address this issue. Furthermore, e-commerce entities are required to have a grievance officer who must acknowledge your complaint within 48 hours and resolve it within one month.",
+    "practical_next_steps": [
+      "Contact the e-commerce platform's customer support to formally register your complaint regarding the defective phone.",
+      "Identify and contact the seller's designated grievance officer, as they are required to acknowledge and address your complaint within specific timelines.",
+      "Keep a record of all communications, including emails, chat transcripts, and reference numbers provided by the platform.",
+      "If the issue remains unresolved, consider reaching out to the National Consumer Helpline for further guidance."
+    ],
+    "evidence_checklist": [
+      "Proof of purchase (invoice or order confirmation)",
+      "Photographic or video evidence demonstrating the defect in the phone",
+      "Copies of all correspondence with the seller and the e-commerce platform",
+      "Any communication where the seller refused your refund request"
+    ],
+    "uncertainty": "The provided information does not specify the exact procedure for filing a formal complaint with a consumer commission, nor does it confirm if your specific case qualifies for a product liability action under the Consumer Protection Act, 2019.",
+    "professional_help_recommended": false,
+    "citations": [
+      {
+        "source_file": "CPA_e_commerce_2020.pdf",
+        "page": 10,
+        "section": "6"
+      },
+      {
+        "source_file": "CPA_e_commerce_2020.pdf",
+        "page": 9,
+        "section": null
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source_file": "CPA_e_commerce_2020.pdf",
+      "page": 10,
+      "section": "section 6",
+      "similarity": 0.8349355459213257
+    },
+    {
+      "source_file": "Consumer_protection_act_2019.pdf",
+      "page": 32,
+      "section": "section 86",
+      "similarity": 0.8299685716629028
+    },
+    {
+      "source_file": "CPA_e_commerce_2020.pdf",
+      "page": 9,
+      "section": null,
+      "similarity": 0.823702335357666
+    },
+    {
+      "source_file": "Consumer_protection_act_2019.pdf",
+      "page": 32,
+      "section": "section 87",
+      "similarity": 0.8204270601272583
+    },
+    {
+      "source_file": "Consumer_protection_act_2019.pdf",
+      "page": 14,
+      "section": "section 20",
+      "similarity": 0.8204782009124756
+    }
+  ]
+}
